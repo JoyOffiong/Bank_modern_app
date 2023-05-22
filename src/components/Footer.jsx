@@ -30,7 +30,7 @@ const Footer = () => {
             
         </div>
 
-        <div className='w-full flex justify-between items-center md:flex-row pt-6 border-t-[1px] border-t-[#3f3e45]'>
+        <div className='w-full flex flex-column justify-between items-center md:flex-row pt-6 border-t-[1px] border-t-[#3f3e45]'>
             <p className='font-poppins font-normal text-[18px] text-center leading-[27px] text-white'>2021 Hoobank. All rights Reserved</p>
             <div className='flex flex-row md:mt-0 mt-6'>
         {socialMedia.map((social, index)=>{
